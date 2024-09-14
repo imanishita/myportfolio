@@ -1,6 +1,6 @@
 import "./HeroImgStyless.css";
 import React from "react";
-import IntroImg from "../Assets/codingimg3.avif"
+import IntroImg from "../Assets/codingimg6.jpg"
 import ProfilePic from "../Assets/myimg.png"
 function HeroImg() {
     return (
