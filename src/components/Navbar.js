@@ -8,8 +8,19 @@ function Navbar() {
 
     const handleClick = () => setClick(!click);
 
+    const[color,setColor]= useState(false);
+    const changeColor = () =>{
+        if(window.scrollY>=100){
+            setColor(true);
+        }else{
+            setColor(false);
+        }
+    };
+    window.addEventListener("scroll",changeColor);
+
     return (
-        <div className="header">
+        <div className={color ? "header header-bg":
+        "header"}>
             {}
             <Link to="/">
                 <h1>Manishita Biswas</h1>
@@ -32,8 +43,8 @@ function Navbar() {
             </ul>
 
             {}
-            <div className="hamburger" onClick={handleClick}>
-                {}
+            <div className="hamburger" onClick=
+            {handleClick}>
                 {click ? (
                     <FaTimes size={20} style={{ color: "#fff" }} />
                 ) : (
