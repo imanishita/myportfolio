@@ -20,8 +20,8 @@ ul{
   padding: 12px 32px;
   font-size: 1rem;
   text-transform: uppercase;
-  background: rgb(54, 2, 2);
-  color: #222;
+  background: rgba(237, 229, 229, 0.496);
+  color: #ece8e8;
   border: 1px solid #fff;
   font-weight: 600;
   cursor: pointer;
