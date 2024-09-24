@@ -1,10 +1,14 @@
+// Project.js
 import React from 'react';
+import Navbar from '../components/Navbar';
+import Footer from '../components/Footer';
 
 function Project() {
   return (
     <div>
-      <h1>My Projects</h1>
-      <p>Here are some of the projects I have worked on.</p>
+      <Navbar />
+      
+      <Footer />
     </div>
   );
 }

@@ -6,6 +6,7 @@ import Projects from "./routes/Project";
 import Contact from "./routes/Contact";
 import {Route,Routes} from "react-router-dom";
 
+
 function App() {
   return(
     <>
@@ -17,6 +18,9 @@ function App() {
       
     </Routes>
     </>
+    
+      
+  
   );
     
     

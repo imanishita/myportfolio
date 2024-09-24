@@ -1,10 +1,13 @@
 import React from 'react';
+import Navbar from '../components/Navbar';
+import Footer from '../components/Footer';
 
 function Contact() {
   return (
     <div>
-      <h1>Contact Information</h1>
-      <p>You can contact me through this page.</p>
+      <Navbar/>
+      
+      <Footer/>
     </div>
   );
 }

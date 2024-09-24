@@ -23,7 +23,7 @@ function Navbar() {
         "header"}>
             {}
             <Link to="/">
-                <h1>Manishita Biswas</h1>
+                <h1>Portfolio</h1>
             </Link>
 
             {}
