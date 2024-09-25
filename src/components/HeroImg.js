@@ -13,6 +13,7 @@ function HeroImg() {
         <div class="text-content">
                 <h1>Hi! I'm Manishita Biswas</h1>
                 <h2>Technology and Feline enthusiast</h2>
+                <button className="btn">Resume</button>
             </div>
           <img className="myprofilepic" src = {ProfilePic}/>
         </div> 
