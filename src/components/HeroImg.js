@@ -21,6 +21,8 @@ function HeroImg() {
                   <button className="btn">Resume</button>
               </a>
             </div>
+            <br></br>
+            <br></br>
           <img className="myprofilepic" src = {ProfilePic}/>
         </div> 
       </div>
