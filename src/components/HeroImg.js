@@ -2,6 +2,8 @@ import "./HeroImgStyless.css";
 import React from "react";
 import IntroImg from "../Assets/codingimg6.jpg"
 import ProfilePic from "../Assets/myimg.png"
+import Resume from "../Assets/ResumeManishitaBiswas.pdf"
+
 function HeroImg() {
     return (
       <div className ="hero">
@@ -13,7 +15,11 @@ function HeroImg() {
         <div class="text-content">
                 <h1>Hi! I'm Manishita Biswas</h1>
                 <h2>Technology and Feline enthusiast</h2>
-                <button className="btn">Resume</button>
+                <a href={Resume} target="_blank" rel="noopener noreferrer">
+                  <br></br>
+                  <br></br>
+                  <button className="btn">Resume</button>
+              </a>
             </div>
           <img className="myprofilepic" src = {ProfilePic}/>
         </div> 
