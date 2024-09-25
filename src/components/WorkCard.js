@@ -4,10 +4,9 @@ import { NavLink } from "react-router-dom";
 
 const WorkCard = (props) => {
   return (
-  <div className="projectcontainer">
     <div className="projectcard">
-        <img src={props.imgsrc} alt="image"/>
-        <h2 className="projecttitle">{props.title}</h2>
+      <img src={props.imgsrc} alt="image"/>
+      <h2 className="projecttitle">{props.title}</h2>
         <div className="prodetails">
             <p>{props.text}</p>
             <div className="probtns">
@@ -15,10 +14,10 @@ const WorkCard = (props) => {
             <NavLink to={props.source} className="btn">Source</NavLink>
 
 
-            </div>
+          </div>
         </div>
     </div>
-</div>
+
   )
 }
 
