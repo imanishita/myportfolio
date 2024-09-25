@@ -1,0 +1,19 @@
+{
+  "files": {
+    "main.css": "/https//imanishita.github.io/myportfolio/static/css/main.ddb8ef37.css",
+    "main.js": "/https//imanishita.github.io/myportfolio/static/js/main.093a9833.js",
+    "static/media/projectcover1.png": "/https//imanishita.github.io/myportfolio/static/media/projectcover1.7b9455f17382911ee129.png",
+    "static/media/myimg.png": "/https//imanishita.github.io/myportfolio/static/media/myimg.e885b3b2508c26648806.png",
+    "static/media/projectcover2.png": "/https//imanishita.github.io/myportfolio/static/media/projectcover2.47f851f856b677d18ee5.png",
+    "static/media/codingimg6.jpg": "/https//imanishita.github.io/myportfolio/static/media/codingimg6.025fea2a6dff1d2d6590.jpg",
+    "static/media/ResumeManishitaBiswas.pdf": "/https//imanishita.github.io/myportfolio/static/media/ResumeManishitaBiswas.fe8b30d8cf537583dc16.pdf",
+    "static/media/myskills.png": "/https//imanishita.github.io/myportfolio/static/media/myskills.cdf7041eccfacfb89a2c.png",
+    "index.html": "/https//imanishita.github.io/myportfolio/index.html",
+    "main.ddb8ef37.css.map": "/https//imanishita.github.io/myportfolio/static/css/main.ddb8ef37.css.map",
+    "main.093a9833.js.map": "/https//imanishita.github.io/myportfolio/static/js/main.093a9833.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.ddb8ef37.css",
+    "static/js/main.093a9833.js"
+  ]
+}
